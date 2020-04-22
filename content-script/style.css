@@ -1,0 +1,10 @@
+.comment-reply-count {
+  display: inline-block;
+  background: #070;
+  color: #fff;
+  position: relative;
+  top: -10px;
+  font-size: 0.8em;
+  padding: 0px 6px;
+  border-radius: 50%;
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Confluence Comments That Don't Suck",
+  "version": "0.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*.atlassian.net/wiki/*"],
+      "css": ["content-script/style.css"],
+      "js": ["content-script/entry-point.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "content-script/comments-loader.js",
+    "content-script/confluence.js",
+    "content-script/highlight-observer.js",
+    "content-script/main.js"
+  ]
+}
